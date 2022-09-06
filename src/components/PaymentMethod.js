@@ -53,5 +53,30 @@ const PaymentStyle = styled.div`
             }
         }
     }
+    @media screen and (max-width:680px){
+        margin:1rem;
+        .pay-flex{
+            /* margin:1rem 2rem; */
+            ul{
+                width:90%;
+                li{
+                    font-size:1rem;
+                    padding: 0.5rem 1rem;;
+                }
+            }
+        }
+    }
+    @media screen and (max-width:600px){
+        .pay-flex{
+            width:100%;
+            ul{
+                margin:0;
+                li{
+                    padding:0;
+                    font-size:.8rem;
+                }
+            }
+        }
+    }
 `
 export default PaymentMethod

@@ -86,5 +86,49 @@ const FooterStyle = styled.div`
             }
         }
     }
+    @media screen and (max-width:980px){
+        .sections{
+            width:100%;
+            ul{
+                gap:1rem;
+                padding:0;
+                li{
+                    padding:1rem 1.5rem;
+                }
+            }
+        }
+    }
+    @media screen and (max-width:680px){
+        width:100%;
+        .sections{
+            ul{
+                li{
+                    padding:.8em 1.5rem;
+                    width:fit-content;
+                    font-size:1rem;
+                }
+            }
+            .image-icon{
+                img{
+                    width:20px;
+                    height:20px;
+                }
+            }
+            p{
+                font-size:1rem;
+            }
+        }
+    }
+    @media screen and (max-width:400px){
+        .sections{
+            ul{
+                margin:0;
+                li{
+                    padding:.5rem .8rem;
+                    font-size:.8rem;
+                }
+            }
+        }
+    }
 `
 export default Footer

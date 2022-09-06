@@ -16,5 +16,11 @@ const BitFlipStyle = styled.div`
     margin: 2rem 5rem;
     display:flex;
     justify-content:space-between;
+    gap:3rem;
+    @media screen and (max-width:980px){
+      display:flex;
+      flex-direction: column-reverse;
+      margin:2rem 1rem;
+    }
 `
 export default BitsFlip

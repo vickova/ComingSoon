@@ -41,5 +41,20 @@ const PhoneTextStyle = styled.div`
             cursor:pointer;
         }
     }
+    @media screen and (max-width:680px){
+      width:inherit;
+      div{
+        p{
+            font-size:1rem;
+        }
+        h2{
+            font-size:2rem;
+        }
+        button{
+            font-size:1rem;
+            padding:.8rem 1.8rem;
+        }
+      }
+    }
 `
 export default PhoneText

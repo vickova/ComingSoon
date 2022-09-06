@@ -26,21 +26,25 @@ const PhoneBackgroundStyle = styled.div`
     background-image:url(${GreenBackground});
     background-repeat:no-repeat;
     height: 600px;
-    width:40%;
+    width:fit-content;
     display:flex;
     align-items:flex-end;
     justify-content:center;
-    padding:4rem 0;
+    padding:4rem 2rem;
+    width:45%;
     .shadow-cover{
         position:relative;
         .shadow{
             position:absolute;
-            bottom:0px;
+            bottom:-10px;
+            left:30px;
+            width:100%;
         }
     }
     .images{
         display:flex;
         position:relative;
+        
         .first{
             height:500px;
             width:280px;
@@ -60,6 +64,9 @@ const PhoneBackgroundStyle = styled.div`
             margin-left:-200px;
             height:450px;
         }
+    }
+    @media screen and (max-width:980px){
+      width:inherit;
     }
 `
 export default PhoneBackground

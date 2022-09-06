@@ -17,5 +17,9 @@ const SavingsBitStyle = styled.div`
     margin: 2rem 5rem;
     display:flex;
     justify-content:space-between;
+    @media screen and (max-width:980px){
+      display:block;
+      margin:2rem 1rem;
+    }
 `
 export default SavingsBit

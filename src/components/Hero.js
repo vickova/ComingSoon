@@ -39,6 +39,29 @@ const HeroStyle = styled.div`
     .hero-flex{
         display:flex;
         justify-content:space-between;
+        gap:5rem;
+    }
+    @media screen and (max-width:980px){
+        padding:1rem;
+        .gofrii{
+            h2{
+                font:3rem;
+            }
+        }
+        .hero-flex{
+            display:flex;
+            flex-direction:column-reverse;
+        }
+    }
+    @media screen and (max-width:680px){
+        .gofrii{
+            align-items:flex-start;
+            h2{
+                font-size:2.8rem;
+                margin-top:0;
+                margin-bottom:4rem;
+            }
+        }
     }
 `
 export default Hero

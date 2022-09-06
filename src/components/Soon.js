@@ -31,8 +31,8 @@ const SoonStyle = styled.div`
         padding:3rem 4rem;
         text-align:center;
         border-radius:20px;
-        width: 85%;
-
+        width: 100%;
+        margin:1rem;
         h2{
             font-size:2.5rem;
             color:#FFF;
@@ -61,6 +61,32 @@ const SoonStyle = styled.div`
                 img{
                     width:25px;
                     height:25px;
+                }
+            }
+        }
+    }
+    @media screen and (max-width:680px){
+        .soon-center{
+            padding:1rem;
+            h2{
+                font-size:2rem;
+            }
+            p{
+                font-size:1rem;
+            }
+            .buttons{
+                button{
+                    font-size:.8rem;
+                    padding: 0.8rem 1.5rem;
+                }
+            }
+        }
+    }
+    @media screen and (max-width:400px){
+        .soon-center{
+            .buttons{
+                button{
+                    padding: 0.5rem;
                 }
             }
         }

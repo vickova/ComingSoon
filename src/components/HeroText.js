@@ -32,11 +32,11 @@ const HeroTextStyle = styled.div`
     form{
         display:flex;
         margin: 5rem 0;
+        height:60px;
         input{
-            padding: 1rem;
-            width: 65%;
-            height:30px;
-            font-size:1.2rem;
+            padding:.5rem 1rem;
+            font-size:1rem;
+            width:150px;
             outline:none;
             font-family:'Poppins', sans-serif;
         }
@@ -44,12 +44,28 @@ const HeroTextStyle = styled.div`
             border:none;
             background: #2B3C60;
             border-radius: 0 10px 10px 0;
-            padding: 1rem;
-            font-size:1.2rem;
-            width:45%;
+            padding:.5rem 1rem;
+            font-size:1rem;
+            width:120px;;
             cursor:pointer;
             color:#FBFBFB;
             font-family:'Poppins', sans-serif;
+        }
+    }
+    @media screen and (max-width:980px){
+        form{
+            width:100%;
+            input{
+                width:55%;
+            }
+            button{
+
+            }
+        }
+    }
+    @media screen and (max-width:680px){
+        h2{
+            font-size:2.5rem;
         }
     }
 `

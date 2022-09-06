@@ -27,18 +27,20 @@ const HeroImages = () => {
 const HeroImagesStyle = styled.div`
     display:flex;
     justify-content:center;
+    width:60%;
     .phone{
         background-size:contain;
         background-repeat:no-repeat;
         width:250px;
-        height: 550px;
+        height: fit-content;
         display:flex;
         justify-content:center;
         -webkit-justify-content:center;
-        align-items:center;
+        align-items:flex-end;
         img{
             border-radius: 30px;
-            width: 75%;
+            margin-left:-5px;
+            width:75%;
         }
         
     }
@@ -47,22 +49,18 @@ const HeroImagesStyle = styled.div`
     }
     .middlephone{
         background-image:url(${LeftPhone});
-        margin-top: 10%;
         margin-left:-30px;
+        margin-top:50px;
         z-index:2;
-        img{
-            margin:5rem 0;
-        }
+        
     }
     .rightphone{
         background-image:url(${RightPhone});
-        margin-top:5%;
         justify-content:flex-start;
         margin-left:-40px;
-        img{
-        width:80%;
-        margin-left:.5rem;
-        }
+    }
+    @media screen and (max-width:980px){
+      width:100%;
     }
 `
 

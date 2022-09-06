@@ -17,6 +17,7 @@ const Pay = () => {
 }
 
 const PayStyle = styled.div`
+    width:100%;
     h3{
         text-align:center;
         font-size:1.5rem;
