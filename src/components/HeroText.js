@@ -36,7 +36,7 @@ const HeroTextStyle = styled.div`
         input{
             padding:.5rem 1rem;
             font-size:1rem;
-            width:150px;
+            width:55%;
             outline:none;
             font-family:'Poppins', sans-serif;
         }
@@ -46,7 +46,7 @@ const HeroTextStyle = styled.div`
             border-radius: 0 10px 10px 0;
             padding:.5rem 1rem;
             font-size:1rem;
-            width:120px;;
+            width:35%;
             cursor:pointer;
             color:#FBFBFB;
             font-family:'Poppins', sans-serif;
@@ -66,6 +66,18 @@ const HeroTextStyle = styled.div`
     @media screen and (max-width:680px){
         h2{
             font-size:2.5rem;
+        }
+        form{
+            height:50px;
+            input{
+                font-size:.8rem;
+                width:40%;
+            }
+            button{
+                width:40%;
+                padding: 0.2rem;
+                font-size:.8rem;
+            }
         }
     }
 `

@@ -72,7 +72,7 @@ const PaymentStyle = styled.div`
             ul{
                 margin:0;
                 li{
-                    padding:0;
+                    padding: 0.5rem 1rem;
                     font-size:.8rem;
                 }
             }

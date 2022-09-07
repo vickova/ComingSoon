@@ -66,5 +66,21 @@ const GroupRedBackgroundStyle = styled.div`
     @media screen and (max-width:980px){
       width:inherit;
     }
+    @media screen and (max-width:680px) {
+        padding:3rem 5rem;
+        .shadow-cover{
+            .shadow{
+                bottom:35px;
+            }
+        }
+        .images{
+            width:80%;
+            .first, .second{
+                img{
+                    height:430px;
+                }
+            }
+        }
+    }
 `
 export default GroupRedBackground

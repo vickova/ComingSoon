@@ -62,6 +62,14 @@ const HeroImagesStyle = styled.div`
     @media screen and (max-width:980px){
       width:100%;
     }
+    @media screen and (max-width:680px){
+        .phone{
+            img{
+                border-radius:20px;
+                margin-left:0;
+            }
+        }
+    }
 `
 
 export default HeroImages;

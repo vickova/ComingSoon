@@ -86,7 +86,8 @@ const SoonStyle = styled.div`
         .soon-center{
             .buttons{
                 button{
-                    padding: 0.5rem;
+                    padding: 0.5rem 1rem;
+                    gap: 0;
                 }
             }
         }

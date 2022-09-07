@@ -128,6 +128,9 @@ const FooterStyle = styled.div`
                     font-size:.8rem;
                 }
             }
+            p{
+                margin: 2rem;
+            }
         }
     }
 `
