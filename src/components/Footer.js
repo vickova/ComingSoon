@@ -99,7 +99,6 @@ const FooterStyle = styled.div`
         }
     }
     @media screen and (max-width:680px){
-        width:100%;
         .sections{
             ul{
                 li{
@@ -119,14 +118,14 @@ const FooterStyle = styled.div`
             }
         }
     }
-    @media screen and (max-width:400px){
+    @media screen and (max-width:480px){
         .sections{
             ul{
-                margin:0;
-                li{
-                    padding:.5rem .8rem;
-                    font-size:.8rem;
-                }
+                padding:1.5rem;
+                flex-wrap:wrap;
+                display:grid;
+                grid-template-columns:1fr 1fr;
+                
             }
             p{
                 margin: 2rem;

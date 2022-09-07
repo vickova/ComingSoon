@@ -85,6 +85,7 @@ const SoonStyle = styled.div`
     @media screen and (max-width:400px){
         .soon-center{
             .buttons{
+                gap:1rem;
                 button{
                     padding: 0.5rem 1rem;
                     gap: 0;

@@ -31,6 +31,7 @@ const GroupRedBackgroundStyle = styled.div`
     align-items:center;
     justify-content:center;
     padding:4rem 2rem;
+    width:45%;
     .shadow-cover{
         position:relative;
         .shadow{
@@ -67,18 +68,38 @@ const GroupRedBackgroundStyle = styled.div`
       width:inherit;
     }
     @media screen and (max-width:680px) {
-        padding:3rem 5rem;
         .shadow-cover{
+            padding: 0 2rem;
             .shadow{
-                bottom:35px;
+                display:none;
             }
         }
         .images{
             width:80%;
+            margin-left:30px;
+            overflow:hidden;
             .first, .second{
                 img{
-                    height:430px;
+                    height:95%;
                 }
+            }
+        }
+    }
+    @media screen and (max-width:400px) {
+        height:350px;
+        overflow:hidden;
+        .shadow-cover{
+            width:fit-content;
+            .shadow{
+                display:none;
+            }
+        }
+        .images{
+            .first, .second{
+                height:320px;
+            }
+            .second{
+                left:-50px;;
             }
         }
     }

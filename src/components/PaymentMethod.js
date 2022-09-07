@@ -24,7 +24,6 @@ const PaymentStyle = styled.div`
     justify-content:center;
     margin:2rem 0;
     .pay-flex{
-        width: 70vw;
         color:#222121;
         ul{
             background-color: #bfbfbf;
@@ -53,10 +52,10 @@ const PaymentStyle = styled.div`
             }
         }
     }
-    @media screen and (max-width:680px){
+    @media screen and (max-width:980px){
         margin:1rem;
         .pay-flex{
-            /* margin:1rem 2rem; */
+            margin:1rem 2rem;
             ul{
                 width:90%;
                 li{
@@ -66,16 +65,19 @@ const PaymentStyle = styled.div`
             }
         }
     }
-    @media screen and (max-width:600px){
+
+    @media screen and (max-width:700px){
         .pay-flex{
-            width:100%;
+            margin:0;
             ul{
-                margin:0;
+                background-color:inherit;
+                display:grid;
+                grid-template-columns:1fr 1fr;
                 li{
-                    padding: 0.5rem 1rem;
-                    font-size:.8rem;
+                    width: 100px;
                 }
             }
+            
         }
     }
 `
