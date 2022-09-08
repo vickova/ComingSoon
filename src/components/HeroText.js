@@ -39,6 +39,7 @@ const HeroTextStyle = styled.div`
             width:55%;
             outline:none;
             font-family:'Poppins', sans-serif;
+            color: #828282;
         }
         button{
             border:none;

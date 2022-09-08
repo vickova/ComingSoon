@@ -46,12 +46,12 @@ const FooterStyle = styled.div`
             li{
                 font-size:1.2rem;
                 list-style:none;
-                background-color: #c7c1c1;
+                background-color: #D4D4D4;
                 padding:1.5rem 3rem;
                 border-radius:40px;
                 font-family:'Poppins', sans-serif;
                 cursor:pointer;
-                color:#4f4d4d;
+                color:#585858;
             }
         }
         .logo{
@@ -63,17 +63,18 @@ const FooterStyle = styled.div`
                 height:40px;
             }
             h3{
-                color:#4f4d4d;
+                color:#585858;
             }
         }
         .frii{
             margin: 3rem 0;
-            color:#4f4d4d;
+            color:#040404;
         }
         p{
             font-size:1.2rem;
             margin:2rem 0;
             font-family:'Poppins', sans-serif;
+            color:#585858;
         }
         .image-icon{
             display:flex;

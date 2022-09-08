@@ -20,7 +20,7 @@ const SavingStyle = styled.div`
         text-align:center;
         font-size:1.5rem;
         margin:5rem .5rem;
-        color:#4f4d4d;
+        color:#2E2E2E;
     }
 `
 export default Savings

@@ -4,7 +4,6 @@ import styled from 'styled-components';
 
 const PaymentMethod = () => {
     const {pathname} = useLocation();
-    console.log(pathname)
   return (
     <PaymentStyle>
         <div className='pay-flex'>
@@ -25,8 +24,10 @@ const PaymentStyle = styled.div`
     margin:2rem 0;
     .pay-flex{
         color:#222121;
+        width:100%;
+        margin: 1rem 5rem;
         ul{
-            background-color: #bfbfbf;
+            background-color: #EEEEEE;
             display:flex;
             justify-content:space-between;
             padding: 1rem;

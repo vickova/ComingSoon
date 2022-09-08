@@ -7,14 +7,13 @@ import Pay from '../components/Pay';
 import Loan from '../components/Loan';
 import Groups from '../components/Groups';
 import Savings from '../components/Savings';
-import { BrowserRouter, Routes, Route } from 'react-router-dom';
+import { Routes, Route } from 'react-router-dom';
 
 
 const ComingSoon = () => {
   return (
     <div>
       <Hero/>
-      <BrowserRouter>
       <PaymentMethod/>
       <Routes>
         <Route path='/' element={<Pay/>}/>
@@ -22,7 +21,6 @@ const ComingSoon = () => {
         <Route path='/savings' element={<Savings/>}/>
         <Route path='/loan' element={<Loan/>}/>
       </Routes>
-      </BrowserRouter>
       <Soon/>
       <Footer/>
     </div>

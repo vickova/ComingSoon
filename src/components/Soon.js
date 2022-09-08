@@ -32,7 +32,7 @@ const SoonStyle = styled.div`
         text-align:center;
         border-radius:20px;
         width: 100%;
-        margin:1rem;
+        margin:1rem 5rem;
         h2{
             font-size:2.5rem;
             color:#FFF;
@@ -68,6 +68,7 @@ const SoonStyle = styled.div`
     @media screen and (max-width:680px){
         .soon-center{
             padding:1rem;
+            margin:1rem;
             h2{
                 font-size:2rem;
             }

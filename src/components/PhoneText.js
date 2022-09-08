@@ -22,12 +22,12 @@ const PhoneTextStyle = styled.div`
             width:60%;
             font-size:1.5rem;
             font-family:'Poppins', sans-serif;
-            color:#4f4d4d;
+            color:'#2E2E2E';
         }
         h2{
             font-size:2.5rem;
             font-family:'Poppins', sans-serif;
-            color:#3f3f3f;
+            color:#2E2E2E;
         }
         button{
             font-size:1.2rem;
@@ -36,7 +36,7 @@ const PhoneTextStyle = styled.div`
             background: #001235;
             box-shadow: 0px 0px 1px rgba(117, 131, 142, 0.04), 0px 2px 4px rgba(52, 60, 68, 0.16);
             border-radius: 0px 8px 8px 0px;
-            color:#FFF;
+            color:#FBFBFB;
             border:none;
             cursor:pointer;
         }

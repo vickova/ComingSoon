@@ -40,6 +40,7 @@ const HeroStyle = styled.div`
         display:flex;
         justify-content:space-between;
         gap:5rem;
+        margin-top:2rem;
     }
     @media screen and (max-width:980px){
         padding:1rem;
